@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
+/*
+ * Author: Jean Rhum <jeanrhum@gmail.com>
+ * Adapted from bananapi-m2s 4.9 dts, mainline vim3 and radxa zero2 dts(i)
+ */
+
+/dts-v1/;
+
+#include "meson-g12b-a311d.dtsi"
+#include "meson-g12b-bananapi-m2s.dtsi"
+
+/ {
+	compatible = "bananapi,m2s", "amlogic,a311d", "amlogic,g12b";
+};
+
